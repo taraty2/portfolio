@@ -315,7 +315,7 @@ export default function Home() {
 
             <div className="profile-image-wrapper">
               <Image
-                src="/images/profile.png"
+                src="/portfolio/images/profile.png"
                 alt="Foto profil Tara"
                 fill
                 priority
