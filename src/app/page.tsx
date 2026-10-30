@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
+const BASE_PATH = "/portfolio";
 const projects = [
   {
     number: "01",
@@ -315,7 +316,7 @@ export default function Home() {
 
             <div className="profile-image-wrapper">
               <Image
-                src="/portfolio/images/profile.png"
+                src={`${BASE_PATH}/images/profile.png`}
                 alt="Foto profil Tara"
                 fill
                 priority
